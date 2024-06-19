@@ -1,7 +1,7 @@
-import { Post } from './Post'
-import { Header } from './components/Header'
+import { Post } from "./Post";
+import { Header } from "./components/Header";
 
-import './global.css'
+import "./global.css";
 
 export function App() {
   return (
@@ -10,5 +10,5 @@ export function App() {
       <Post author="Osmar Roncasalia" content="Lorem Ipsum" />
       <Post author="Osmar Roncasalia" content="Lorem Ipsum" />
     </div>
-  )
+  );
 }
